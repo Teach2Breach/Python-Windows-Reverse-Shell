@@ -2,10 +2,6 @@ import os
 import socket
 import subprocess
 
-
-if os.cpu_count() <= 2:
-    quit()
-
 HOST = '192.168.1.5'
 PORT = 4444
 
