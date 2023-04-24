@@ -2,8 +2,8 @@ import os
 import socket
 import subprocess
 
-HOST = '192.168.1.25'
-PORT = 4444
+HOST = '192.168.1.2'
+PORT = 44592
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
