@@ -2,7 +2,7 @@ import os
 import socket
 import subprocess
 
-HOST = '127.0.0.1'
+HOST = '192.168.1.2'
 PORT = 4444
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
